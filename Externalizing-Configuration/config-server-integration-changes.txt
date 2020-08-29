@@ -1,0 +1,18 @@
+#Step 1 Integration with the global property file
+#**************** In the main class***********
+
+@EnableDiscoveryClient
+
+#Step 2 Integration with Microservice specific property file 
+
+#************ 
+#In application.properties
+
+#for order-service
+
+spring.application.name=order-service
+
+
+#for-payment-service
+
+spring.application.name=payment-service

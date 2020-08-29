@@ -1,0 +1,26 @@
+$sqlite3 futurexuser.db
+
+.databases
+
+CREATE TABLE
+    user
+    (
+		
+		userid BIGINT NOT NULL,
+		courseid BIGINT NOT NULL,
+		usename VARCHAR,
+		PRIMARY KEY (userid,courseid)
+	);
+	
+	
+INSERT INTO user (userid, courseid, usename) VALUES 
+(1, 1, 'Mike');	
+
+INSERT INTO user (userid, courseid, usename) VALUES 
+(1, 2, 'Jack');	
+
+INSERT INTO user (userid, courseid, usename) VALUES 
+(2, 1, 'Sam');	
+
+INSERT INTO user (userid, courseid, usename) VALUES 
+(3, 2, 'Harry');	
